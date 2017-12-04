@@ -27,14 +27,21 @@ p {
     color: white;
 }
 
-.image {
-    border-radius: 5%;
+.img-container {
+    width: 250px;
+    overflow: auto;
     position: relative;
-    margin-bottom: 4%;
 }
 
-h2 {
-    position: absolute;
+.img-container img {
     width: 100%;
+}
+
+h3 {
+    position: absolute;
     bottom: 2%;
+    width: 100%;
+    text-align: center;
+    background: teal;
+    color: white;
 }
